@@ -4,8 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal-solution</title>
+
+    <!-- google-font-EB-garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- google font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- daisy-ui link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- tailwind config color -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            primary: '#B68C5A',
+            navbar: '#707070'
+            
+          }
+        }
+      }
+    }
+  </script>
+
+<style>
+    .font-eb-garamond{
+        font-family: 'EB Garamond', serif;
+    }
+    .font-poppins{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
 </head>
 <body>
-    
+    <header class="container mx-auto">
+        <div class="navbar justify-evenly pt-4">
+            <div class="">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-navbar font-poppins shadow bg-base-100 rounded-box w-52">
+                  <li class="text-navbar"><a>Home</a></li>
+                   <li><a>services</a></li>
+                  <li><a>Cases</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contract Us</a></li>
+                </ul>
+              </div>
+                <div class="w-24">
+                    <img src="images/logo2.png" alt="">
+                </div>
+            </div>
+            <div class="r hidden lg:flex">
+              <ul class="menu menu-horizontal text-navbar font-poppins px-1">
+                <li><a>Home</a></li>
+                <li><a>services
+                </a></li>
+                <li><a>Cases</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contract Us</a></li>
+              </ul>
+            </div>
+            <div>
+              <a class="btn bg-primary text-white font-poppins">Free Consultation</a>
+            </div>
+          </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
